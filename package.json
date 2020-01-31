@@ -1,0 +1,36 @@
+{
+  "name": "discord-bot-boilerplate",
+  "version": "1.0.0",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production pm2 start ./src/app.js",
+    "dev": "cross-env NODE_ENV=development nodemon ./src/app.js"
+  },
+  "author": "Toms Zvirbulis (https://github.com/tomszir)",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "color-thief-node": "^1.0.3",
+    "cross-env": "^6.0.3",
+    "discord.js": "^11.5.1",
+    "module-alias": "^2.2.2",
+    "pm2": "^4.2.3",
+    "rgb-hex": "^3.0.0",
+    "sequelize": "^5.21.3",
+    "winston": "^3.2.1",
+    "winston-console-format": "^1.0.5",
+    "winston-daily-rotate-file": "^4.4.2"
+  },
+  "_moduleAliases": {
+    "~": ".",
+    "@": "./src",
+    "@config": "./config/config.js"
+  }
+}
