@@ -21,7 +21,7 @@
     "cross-env": "^6.0.3",
     "discord.js": "^11.5.1",
     "module-alias": "^2.2.2",
-    "pm2": "^4.2.3",
+    "pm2": "^5.2.0",
     "rgb-hex": "^3.0.0",
     "sequelize": "^5.21.3",
     "winston": "^3.2.1",
